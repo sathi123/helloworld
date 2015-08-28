@@ -1,0 +1,34 @@
+<html>
+<head>
+<script type="text/javascript">;
+function login()
+{
+
+  if(document.getElementById("t1").value == "")
+  {
+  alert("Enter name ");
+  }
+
+
+  else if(document.getElementById("t2").value == "")
+  {
+  alert("enter password");
+  }
+
+var name=document.getElementById("t1").value;
+var password=document.getElementById("t2").value;
+alert("welcome "+name+" your account is created");
+
+}
+</script>
+</head>
+<body>
+<form>
+<p align="center">
+User Name:<input type="text" id="t1"> <br><br>
+Password: <input type="text" id="t2"> <br><br>
+<input type="button" value="submit" onclick="login()">
+</p>
+</form>
+</body>
+</html>

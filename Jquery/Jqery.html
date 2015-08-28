@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script>
+
+
+$(document).ready(function(){
+
+
+    $("#hide").click(function(){
+        $("img").hide();
+    });
+    $("#show").click(function(){
+        $("img").show();
+
+    });
+
+    $("#fade").click(function(){
+      $("#img").fadeOut();
+
+
+
+    });
+
+    $("#fadeo").click(function(){
+      $("#img").fadeIn("slow");
+    });
+
+    $("#tog").click(function(){
+      $("#img").fadeToggle("slow");
+      $("#img").fadeToggle();
+      $("#img").fadeToggle(90)
+      $("#img").fadeIn("slow");
+
+
+    });
+
+
+    $("#tex").click(function(){
+    $("#t").fadeToggle("slow");
+    $("#t").fadeToggle(1000);
+    $("#t").fadeToggle();
+});
+
+
+
+$("#ht").click(function(){
+        alert("HTML: " + $("#t").text());
+    });
+
+    $("#anim").click(function(){
+    $("#img").animate({height:'toggle'});
+
+  });
+  $("#set").click(function(){
+    $("#t").text("hello world");
+  });
+
+});
+
+
+
+</script>
+</head>
+<body>
+
+<img src="download.jpg" id="img" />
+<br>
+<p id="t">h<b>i</b>b</p>
+<button id="set">Set Property</button>
+<button id="hide">invisible</button>
+<button id="show">Visible</button>
+<button id="fade">Fade</button>
+<button id="fadeo">FadeOut1</button>
+<button id="tog">Toggle</button>
+<button id="tex">Text</button>
+<button id="ht"> Method </button>
+<button id ="anim">Animation </button>
+</body>
+</html>

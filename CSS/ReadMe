@@ -1,0 +1,11 @@
+1. Click on the CSS1.html file.
+2. Order list content, Analytics, Machine learning and Predective   analysis.
+3. Using CSS , we applyed some effects to margin and    
+   paddingwth diierent color.
+4. Login and OnMouse are two links, it links two two different pages.
+5. Image position is set to the bottom.
+
+Files:
+msCss.css---> css file CSS1.html
+sathi.html----> Linking for Login page
+task.html-----> Linking for OnMouseOver

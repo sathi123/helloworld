@@ -1,0 +1,41 @@
+body{
+background-color:lightblue;
+background-image: url("download.jpg");
+background-repeat: no-repeat;
+background-position: bottom;
+
+}
+
+p{
+
+ margin-left: 30px;
+ text-decoration-style:dotted;
+
+
+  font-style: italic;
+  font-size:14px;
+
+}
+
+ol.c {
+  list-style-type: upper-latin;
+  list-style-position: inherit;
+
+}
+
+
+
+div {
+    background-color:red;
+    width: 300px;
+    padding: 25px;
+    border: 25px solid navy;
+    margin: 25px;
+    font-style: oblique;
+}
+
+ul{
+list-style-type: none;
+    margin: 10;
+    padding: 50;
+}

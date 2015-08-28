@@ -1,0 +1,10 @@
+1.Click on the Jqery file.
+2.Click on Set property button,it will set the existing with new string.
+3.Click on invisible button,it will hide the Image.
+4.Click on the Visibe button, it wll make visible the image.
+5.Click on the Fade button. Fade(hide) the image.
+6.Click on the Fadeout1 button. image will visible.
+7.click on toggle button, the will starts for visible and invisible for some of time.
+8.Click on toggle button, text will start for visible and invisible for some of time.
+9.Click on the method button, it will start it will get the text and display it in alert box.
+10.click on the Animation button. it will start animatinon on image.

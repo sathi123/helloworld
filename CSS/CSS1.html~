@@ -1,0 +1,27 @@
+<html>
+<head>
+<link rel ="stylesheet" type="text/css" href="msCss.css">
+<body>
+<p>categeroies of Anlytics:</p>
+<ol>
+  <li>Analytics</li>
+  <li>Predective analysis</li>
+  <li>machine learning</li>
+</ol>
+
+<div>
+  <p>Prognosys direct</p>
+</div>
+
+
+<ul>
+  <li><a href="sathi.html">Login</a></li>
+  <li><a href="task2.html">OnMouseover</a></li>
+ </ul>
+
+
+
+
+</body>
+</head >
+<html>
