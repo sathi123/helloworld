@@ -1,0 +1,5 @@
+1 Run the AsyncFile.js
+2 It is taking v.txt as input
+3 whenever the file v.txt is open, give back its control to next statement, 
+4 when file reading  operation is complete, it calls the callback function.
+ 

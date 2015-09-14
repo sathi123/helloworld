@@ -1,0 +1,6 @@
+1 Run the ex.js file: node ex.js
+
+2 It will display the area and string concatination output.
+
+3 cir.js file is having the code computing the area and Sting concatination. and exporting that module.
+
